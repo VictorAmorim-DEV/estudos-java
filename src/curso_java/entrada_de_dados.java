@@ -14,11 +14,14 @@ public class entrada_de_dados {
 		int y;
 		double z;
 		char l;
+		String li;
 		
 		x = sc.next();
 		y = sc.nextInt();
 		z = sc.nextDouble();
 		l = sc.next().charAt(0);
+		li = sc.nextLine();
+		li = sc.nextLine();
 		
 		System.out.println("Você digitou o nome: " + x);
 		System.out.println("Digitou o numero INT: " + y);
@@ -26,6 +29,7 @@ public class entrada_de_dados {
 		System.out.printf("Você digitou o numero DOUBLE com \"printf\": %.2f%n", z);
 		System.out.println("A primeira letra do nome é: " + l);
 		System.out.printf("Tudo em uma linha: %s; %d; %.2f; %s%n", x, y, z, l);
+		System.out.println("A frase que você digitou foi: " + li);
 		sc.close();
 
 	}
