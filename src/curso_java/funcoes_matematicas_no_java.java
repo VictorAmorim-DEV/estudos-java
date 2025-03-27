@@ -1,6 +1,6 @@
 package curso_java;
 
-public class funcoes_matemaricas_no_java {
+public class funcoes_matematicas_no_java {
 
 	public static void main(String[] args) {
 		double x = 3.0;
