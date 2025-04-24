@@ -29,6 +29,9 @@ public class EmployeeForList {
 	public double getSalary() {
 		return salary;
 	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
 	
 	public void increaseSalary(double percentage) {
 		salary += (salary * (percentage/100));
