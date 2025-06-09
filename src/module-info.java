@@ -4,5 +4,5 @@
 /**
  * 
  */
-module curso_java {
+module projetos_curso {
 }
